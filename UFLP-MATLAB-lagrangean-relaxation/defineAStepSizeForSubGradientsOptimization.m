@@ -1,0 +1,3 @@
+LLBP.T = LLBP.tau*incumbent.minimumUpperBoundFound -...
+         currentSolution.lowerBound;
+LLBP.T = LLBP.f*LLBP.T/dot(LLBP.subGrad,LLBP.subGrad);
