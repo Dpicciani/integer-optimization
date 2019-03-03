@@ -1,0 +1,8 @@
+
+searchForNonUsedFacilitesAndCloseThem;
+
+searchForUniqueDemandsAndOpenBothFacilitiesAndDemands;
+
+updateProblemReductionDegree;
+
+clear facility client nonClosedDemands;

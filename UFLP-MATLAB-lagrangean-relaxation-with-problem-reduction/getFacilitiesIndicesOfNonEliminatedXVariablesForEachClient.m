@@ -1,0 +1,3 @@
+
+I = createAIndicesSetAssociatedToNonFixedVariablesFromEachClient...
+    ( currentFormulation, problemReduction );

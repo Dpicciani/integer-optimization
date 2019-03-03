@@ -1,0 +1,3 @@
+
+problemReduction.closedFacilities =...
+  union(problemReduction.closedFacilities, selectedFacilityIndices);

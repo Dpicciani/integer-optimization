@@ -1,0 +1,3 @@
+
+LLBP.rlc(facilityIndex,1) =...
+  currentFormulation.F(facilityIndex,1) + sum( negativeLagrangeanCosts );

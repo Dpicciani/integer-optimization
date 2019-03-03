@@ -1,0 +1,11 @@
+
+updateProblemReductionMaxLBByClosedFacility;
+
+selectFacilitiesThatViolateTheMinUpperBoundFoundByClosingThem;
+
+excludeAlreadyClosedFacilitiesFromSelectedFacilities;
+
+
+openSelectedFacilities;
+
+clear selectedFacilityIndices facilityIndex;
