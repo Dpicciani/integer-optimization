@@ -1,0 +1,1 @@
+LLBP.subGrad = ones(1, currentFormulation.n) - sum(currentSolution.x);
