@@ -1,0 +1,3 @@
+
+possibleSupplyingCosts =...
+  currentFormulation.c(openFacilitiesIndices, client);

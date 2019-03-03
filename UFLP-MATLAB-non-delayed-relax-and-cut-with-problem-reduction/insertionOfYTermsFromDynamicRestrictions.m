@@ -1,0 +1,13 @@
+numberOfViolatedRestrictions = length(previouslyViolatedActiveSet);
+
+for violatedRestrictionIndex = 1:numberOfViolatedRestrictions
+  
+  restriction = previouslyViolatedActiveSet{violatedRestrictionIndex};
+  
+  LLBP.rlc(facilityIndex,1) =...
+  LLBP.rlc(facilityIndex,1) +...
+    LLBP.dS(violatedRestrictionIndex)*LLBP.dY( facilityIndex,...
+                                               currentSolution,...
+                                               restriction );
+end
+                            

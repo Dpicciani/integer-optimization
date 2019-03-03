@@ -1,0 +1,3 @@
+
+nonClosedDemands =...
+  find(problemReduction.fixedDemands(openFacilitiesIndices, client) ~= 0);
