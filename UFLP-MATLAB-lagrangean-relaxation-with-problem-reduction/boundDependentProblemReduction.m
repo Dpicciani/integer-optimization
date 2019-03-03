@@ -1,0 +1,3 @@
+tryToCloseFacilities;
+
+tryToOpenFacilities;

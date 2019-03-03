@@ -1,0 +1,1 @@
+negativeRLCIndices = find(LLBP.rlc <= 0);

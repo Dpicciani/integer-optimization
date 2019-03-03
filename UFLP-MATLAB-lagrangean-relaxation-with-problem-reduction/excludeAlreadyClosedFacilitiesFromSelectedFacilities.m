@@ -1,0 +1,3 @@
+
+selectedFacilityIndices =...
+  setdiff(selectedFacilityIndices, problemReduction.closedFacilities);
