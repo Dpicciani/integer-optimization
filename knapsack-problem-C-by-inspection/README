@@ -1,0 +1,9 @@
+12/10/2018, Araruama, RJ, Brazil
+
+This project was perfomed by Douglas Picciani de Souza for Luidi's class of Computational Techniques in Optimization at PESC/UFRJ (Universidade Federal do Rio de Janeiro).
+
+The program solves the Knapsack Problem.
+
+The makefile can be found in /exec directory. 
+The program will be generated in the same directory.
+The /database directory contains the input and output files. 
