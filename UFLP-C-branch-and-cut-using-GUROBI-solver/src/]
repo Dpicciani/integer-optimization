@@ -1,0 +1,508 @@
+#include "separationAlgorithms.h"
+#include "errorHandling.h"
+#include <stdlib.h>
+
+void threeClientSeparation(int m, 
+		           int n, 
+			   solution **sol, 
+			   restrictionList *rList)
+{
+  int i,j,
+      fractionaryClients = 0;
+
+  Jfractional *Jfbase = NULL
+	    , *Jf = NULL;
+  Xfractional *Xf;
+
+  
+  /* compute Jf and Ef */
+
+  for (j=0; j<n; j+=1){
+    for (i=0; i<m; i+=1){
+      if (((*sol)->x[i][j] > 0)&&((*sol)->x[i][j] < 1)){
+        if (Jfbase == NULL){
+	  fractionaryClients += 1;
+	  JfracMemoryAllocation(&Jfbase);
+	  XfracMemoryAllocation(&(Jfbase->Xfrac));
+	  Jfbase->index = j;
+	  Jf = Jfbase;
+	  Xf = Jf->Xfrac;
+	  Xf->index = i;
+	  Jf->degree += 1;
+	}
+	else if (Jf->index != j){
+	  fractionaryClients += 1;
+	  JfracMemoryAllocation(&(Jf->next));
+	  Jf = Jf->next;
+	  Jf->index = j;
+	  Jf->degree += 1;
+	  XfracMemoryAllocation(&(Jf->Xfrac));
+	  Xf = Jf->Xfrac;
+	  Xf->index = i;
+	  
+	}	
+        else if (Xf->index != i){
+	  XfracMemoryAllocation(&(Xf->next));
+	  Xf = Xf->next;
+	  Xf->index = i;
+	  Jf->degree += 1;
+	}
+      }
+    }
+  }
+
+  printJfEf(Jfbase);
+
+  if (fractionaryClients < 3){
+    printf("\nfractionary Clients = %d\n\n", fractionaryClients);
+    return;
+  }
+
+  /* Separation algorithm */
+  
+  int j1, j2, j3;
+  Jfractional *J1, *J2, *J3,
+	           *J2_, *J3_;
+  int    stop = 0;
+  int    IndexOfMaximumViolatedEquation;
+  double maximumViolation;
+  double qtt;
+  int   *IXf, *IXfWD;
+  int    size;
+
+  threeClientRestriction *threeClientR; 
+
+  J1 = Jfbase;
+  J2 = J1->next;
+  J3 = J2->next;
+
+  J2_ = J2;
+  J3_ = J3;
+
+  printf("\n");
+
+  while (!stop){
+    j1 = J1->index;
+    j2 = J2->index;
+    j3 = J3->index;
+    IXf = NULL;
+
+    printf("(j1, j2, j3) = (%2d, %2d, %2d)\n", j1, j2, j3);
+    printf("degree%d = %d\ndegree%d = %d\ndegree%d = %d\n",j1,J1->degree,j2,J2->degree,j3,J3->degree);
+    threeClientMemoryAllocation(&threeClientR);
+
+    threeClientJSetting(&threeClientR, j1, j2, j3);
+
+    /* given T={j1,j2,j3}, find a 3client restriction */
+    //getIndicesOfXfWithoutDuplicatedElements(J1,J2,J3);
+    
+    getIndicesOfFractionaryXBasedOnCurrentT(&IXf,J1,J2,J3);
+    cleanDuplicatedElements(&IXfWD, &IXf, degreeSum(J1,J2,J3), &size);
+    
+    printf("\nIXf = ");
+    for(i=0; i < degreeSum(J1,J2,J3);i+=1)
+      printf("%d ", IXf[i]);
+    printf("\n");
+    
+    printf("IXfWD = ");
+    for(i=0; i < size; i+=1)
+      printf("%d ", IXfWD[i]);
+    printf("\n\n");
+
+    printf("\nequation i = ");
+    for (j=0, i=IXfWD[j]; j < size; j+=1, i=IXfWD[j]){
+   
+      printf("%d ", i);
+
+      /* calculate the four quantities */
+      qtt = 2*((*sol)->x[i][j1] + 
+	       (*sol)->x[i][j2] - 
+	       (*sol)->y[i] ); 
+      maximumViolation = qtt;
+      IndexOfMaximumViolatedEquation = 0;
+
+      qtt = 2*((*sol)->x[i][j1] + 
+	       (*sol)->x[i][j3] - 
+	       (*sol)->y[i] ); 
+      if ( maximumViolation < qtt ){
+        maximumViolation = qtt;
+        IndexOfMaximumViolatedEquation = 1;}
+
+      qtt = 2*((*sol)->x[i][j2] + 
+	       (*sol)->x[i][j3] - 
+	       (*sol)->y[i] ); 
+      if ( maximumViolation < qtt ){
+        maximumViolation = qtt;
+        IndexOfMaximumViolatedEquation = 2;}
+      
+      qtt = (*sol)->x[i][j1] + 
+            (*sol)->x[i][j2] + 
+	    (*sol)->x[i][j3] - 
+	    (*sol)->y[i]; 
+      if ( maximumViolation < qtt ){
+        maximumViolation = qtt;
+        IndexOfMaximumViolatedEquation = 3;}
+    
+      if (maximumViolation > 0){
+        switch (IndexOfMaximumViolatedEquation){
+        case 0:
+	      addIndexToSetS(&(threeClientR->S12), i);
+              threeClientR->Slength[0] += 1;
+	      printf("case 0\n");
+	      break;
+        case 1:
+	      addIndexToSetS(&(threeClientR->S13), i);
+              threeClientR->Slength[1] += 1;
+              printf("case 1\n");
+              break;
+        case 2:
+	      addIndexToSetS(&(threeClientR->S23), i);
+              threeClientR->Slength[2] += 1;
+              printf("case 2\n");
+              break;
+        case 3:
+	      addIndexToSetS(&(threeClientR->S123), i);
+              threeClientR->Slength[3] += 1;
+              printf("case 3\n");
+	      break;
+        }
+
+	threeClientR->violationDegree += maximumViolation;
+      }
+    }
+    
+    printf("\n");
+
+    createTokens(&threeClientR);
+
+    /* update pointers for permutation with different triple-clients */
+    if (((J1->next->next->next != NULL)  ||
+         (J2_->next->next != NULL)       ||
+         (J3_->next != NULL))              )
+    {
+      if ((J3->next == NULL) && (J3_->next != NULL))
+      {
+        J3 = J3_->next;
+        J3_ = J3_->next;
+
+        if ((J2->next->next == NULL) && (J2_->next->next != NULL)){
+          J2 = J2_->next;
+          J2_ = J2_->next;
+
+	  if (J1->next->next->next != NULL){
+	    J1 = J1->next;
+	  }
+        }
+        else if ((J2->next->next != NULL) && (J2_->next->next != NULL)){
+          J2 = J2->next;
+        }
+      }
+      else if ((J3->next != NULL) && (J3_->next != NULL)){
+        J3 = J3->next;
+      }
+      else if (J2->next->next == NULL){
+        J1 = J1->next;
+        J2_ = J1->next;
+        J3_ = J2_->next;
+        J2 = J2_;
+        J3 = J3_;
+      }
+    }
+    else stop = 1;
+  }
+}
+
+void computeJfAndEf(Jfractional **Jbase, int *fractionaryClients)
+{
+  int i,j,
+
+  Jfractional 
+	  *Jf = NULL;
+  Xfractional *Xf;
+
+  /* compute Jf and Ef */
+
+  for (j=0; j<n; j+=1){
+    for (i=0; i<m; i+=1){
+      if (((*sol)->x[i][j] > 0)&&((*sol)->x[i][j] < 1)){
+        if ((*Jfbase) == NULL){
+	  *fractionaryClients += 1;
+	  JfracMemoryAllocation(Jfbase);
+	  XfracMemoryAllocation(&((*Jfbase)->Xfrac));
+	  (*Jfbase)->index = j;
+	  Jf = *Jfbase;
+	  Xf = Jf->Xfrac;
+	  Xf->index = i;
+	  Jf->degree += 1;
+	}
+	else if (Jf->index != j){
+	  *fractionaryClients += 1;
+	  JfracMemoryAllocation(&(Jf->next));
+	  Jf = Jf->next;
+	  Jf->index = j;
+	  Jf->degree += 1;
+	  XfracMemoryAllocation(&(Jf->Xfrac));
+	  Xf = Jf->Xfrac;
+	  Xf->index = i;
+	  
+	}	
+        else if (Xf->index != i){
+	  XfracMemoryAllocation(&(Xf->next));
+	  Xf = Xf->next;
+	  Xf->index = i;
+	  Jf->degree += 1;
+	}
+      }
+    }
+  }
+}
+
+void JfracMemoryAllocation(Jfractional **Jf)
+{
+  MEMALLOC((*Jf),1);
+  (*Jf)->next = NULL;
+  (*Jf)->Xfrac = NULL;
+}
+
+void XfracMemoryAllocation(Xfractional **Xf)
+{
+  MEMALLOC((*Xf),1);
+  (*Xf)->next = NULL;
+}
+
+void threeClientJSetting(threeClientRestriction **threeClientR, int j1, int j2, int j3)
+{
+  (*threeClientR)->J[0] = j1;
+  (*threeClientR)->J[1] = j2;
+  (*threeClientR)->J[2] = j3;
+}
+
+void getIndicesOfFractionaryXBasedOnCurrentT
+     (int **IXf,Jfractional *J1, Jfractional *J2, Jfractional *J3)
+{
+  int i = 0;
+
+  MEMALLOC(*IXf, degreeSum(J1,J2,J3));
+ 
+  getAllXfValuesFromJfractional(&i, IXf, J1);
+  getAllXfValuesFromJfractional(&i, IXf, J2);
+  getAllXfValuesFromJfractional(&i, IXf, J3);
+}
+
+void getAllXfValuesFromJfractional(int *i, int **IXf, struct Jfractional *J)
+{
+  Xfractional *Xf;
+  Xf = J->Xfrac;
+  while (Xf != NULL){
+    (*IXf)[*i] = Xf->index;
+    *i += 1;
+    Xf = Xf->next;
+  }
+}
+
+int degreeSum(struct Jfractional *J1, 
+	      struct Jfractional *J2, 
+	      struct Jfractional *J3)
+{
+  return J1->degree + J2->degree + J3->degree;
+}
+
+void cleanDuplicatedElements(int **I, int **IXf, int sizeIn, int *sizeOut)
+{
+  int i,j,k;
+  int *Iaux;
+  
+  printf("\n\nsize antes= %d\n", sizeIn);
+  
+  MEMALLOC(Iaux,sizeIn);
+  for (i=0; i < sizeIn; i+=1){
+    Iaux[i] = (*IXf)[i];
+  }
+
+  for (i=0; i < sizeIn;i+=1){
+    for (j=i+1; j < sizeIn;){
+      if (Iaux[j] == Iaux[i]){
+        for(k=j; k < sizeIn; k+=1){
+          Iaux[k] = Iaux[k+1];
+        }
+        sizeIn -= 1;
+      }
+      else{
+        j += 1;
+      }
+    }
+  }
+
+  printf("\n\nsize depois= %d\n", sizeIn);
+  printf("\nIaux = ");
+  MEMALLOC(*I,sizeIn);
+  for (i=0; i < sizeIn; i+=1){
+    (*I)[i] = Iaux[i];
+    printf("%d ", Iaux[i]);
+  }
+  printf("\n");
+  *sizeOut = sizeIn;
+}
+
+void separationTest()
+{
+  solution *sol;
+  int m = 5,
+      n = 14,
+      i,j;
+  restrictionList *rList;
+
+  /* allocate memory for current variables */
+  MEMALLOC(sol,1);
+  MEMALLOC(sol->y,m);
+  for (i=0; i < m; i+=1)
+    sol->y[i] = 0;
+  MEMALLOC(sol->x,m);
+  for (i=0;i<m;i+=1){
+    MEMALLOC(sol->x[i],n);
+    for (j=0;j<n;j+=1)
+      sol->x[i][j] = 0;
+  }
+  MEMALLOC(rList,1);
+
+
+  /* fractionary points */
+  sol->x[4][1] = 0.5;
+  sol->x[3][2] = 0.3;
+  sol->x[4][3] = 0.2;
+  sol->x[4][4] = 0.3;
+  sol->x[0][5] = 0.2;
+  sol->x[2][5] = 0.7;
+  sol->x[4][5] = 0.4;
+  
+  sol->y[0] = 1;
+  sol->y[2] = 1;
+  sol->y[3] = 1;
+  sol->y[4] = 1;
+
+
+  /* show X variable in command line */
+  printf("\n\n--Starting 3-client separation\n");
+  for (i=0;i<m;i+=1){
+    printf("\n");
+    for (j=0;j<n;j+=1)
+      printf("%4.2lf ", sol->x[i][j]);
+  }
+  printf("\n");
+
+  /* testing of the separation algorithm */
+  threeClientSeparation(m,n,&sol, rList);
+}
+
+void printJfEf(Jfractional *Jfbase)
+{
+  int i,j;
+  Jfractional *Jf;
+  Xfractional *Xf;
+
+  Jf = Jfbase;
+
+  printf("\n");
+
+  while (Jf != NULL){
+    Xf = Jf->Xfrac;
+    j = Jf->index;
+    
+    while (Xf != NULL){
+      i = Xf->index;
+
+      printf("(i*,j*) = (%d,%d)\n", i,j);
+      
+      Xf = Xf->next;
+    }
+    Jf = Jf->next;
+  }
+}
+
+void threeClientMemoryAllocation(threeClientRestriction **threeClientR)
+{
+  MEMALLOC(*threeClientR,1);
+
+  (*threeClientR)->S12 = NULL;
+  (*threeClientR)->S13 = NULL;
+  (*threeClientR)->S23 = NULL;
+  (*threeClientR)->S123 = NULL;
+
+  (*threeClientR)->token1 = 0;
+  (*threeClientR)->token2 = 0;
+  (*threeClientR)->token3 = 0;
+}
+
+void addIndexToSetS(Stype **S, int index)
+{
+  Stype *aux;
+
+  if (*S == NULL){
+    MEMALLOC(*S,1);
+    (*S)->next = NULL;
+    (*S)->index = index;
+    printf("index = %d\n", index);
+  }
+  else{
+    aux = *S;	 
+  
+    while (aux->next != NULL)
+      aux = aux->next;
+  
+    MEMALLOC(aux->next,1);
+    aux = aux->next;
+    aux->next = NULL;
+    aux->index = index;
+  }
+}
+
+
+void createTokens(threeClientRestriction **threeClientR)
+{
+  createToken1(threeClientR);
+  createToken2(threeClientR);
+  createToken3(threeClientR);
+}
+
+void createToken1(threeClientRestriction **threeClientR)
+{  
+  Stype *S;
+
+  S = (*threeClientR)->S12;
+  addSumOfIndicesToToken(&((*threeClientR)->token1), S);
+
+  S = (*threeClientR)->S13;
+  addSumOfIndicesToToken(&((*threeClientR)->token1), S);
+
+  S = (*threeClientR)->S23;
+  addSumOfIndicesToToken(&((*threeClientR)->token1), S);
+  
+  S = (*threeClientR)->S123;
+  addSumOfIndicesToToken(&((*threeClientR)->token1), S);
+}
+
+void addSumOfIndicesToToken(int *indicesSum, Stype *S)
+{
+  if (S != NULL){
+    *indicesSum += S->index;
+
+    while (S->next != NULL){
+      S = S->next;
+      *indicesSum += S->index;
+    }
+  }
+}
+
+void createToken2(threeClientRestriction **threeClientR)
+{
+  (*threeClientR)->token2 = (*threeClientR)->J[0] + 
+	                    (*threeClientR)->J[1] +
+	                    (*threeClientR)->J[2];
+}
+void createToken3(threeClientRestriction **threeClientR)
+{
+  (*threeClientR)->token3 = (*threeClientR)->Slength[0] + 
+	                    (*threeClientR)->Slength[1] +
+	                    (*threeClientR)->Slength[2] +
+	                    (*threeClientR)->Slength[3];
+}

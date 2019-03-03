@@ -1,0 +1,39 @@
+
+Gurobi 8.1.0 (linux64) logging started Mon Feb  4 17:25:25 2019
+
+Academic license - for non-commercial use only
+Read LP format model from file buffer/uflpModel.lp
+Reading time = 0.30 seconds
+obj: 101000 rows, 100100 columns, 300000 nonzeros
+Optimize a model with 101000 rows, 100100 columns and 300000 nonzeros
+Variable types: 0 continuous, 100100 integer (100100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e+00, 7e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 8.262753e+07
+Variable types: 0 continuous, 100100 integer (100100 binary)
+
+Root relaxation: objective 1.150010e+07, 12152 iterations, 0.77 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.1500e+07    0 1288 8.2628e+07 1.1500e+07  86.1%     -    1s
+H    0     0                    1.154153e+07 1.1500e+07  0.36%     -    1s
+     0     0 1.1500e+07    0 1288 1.1542e+07 1.1500e+07  0.36%     -    2s
+H    0     0                    1.150559e+07 1.1500e+07  0.05%     -    3s
+     0     2 1.1501e+07    0 1289 1.1506e+07 1.1501e+07  0.04%     -    3s
+     3     3 1.1502e+07    2 1001 1.1506e+07 1.1502e+07  0.04%  14.7    5s
+
+Cutting planes:
+  User: 6
+
+Explored 9 nodes (12252 simplex iterations) in 5.51 seconds
+Thread count was 1 (of 1 available processors)
+
+Solution count 3: 1.15056e+07 1.15415e+07 8.26275e+07 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.150559432950e+07, best bound 1.150559432950e+07, gap 0.0000%
