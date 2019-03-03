@@ -1,0 +1,3 @@
+
+negativeLagrangeanCosts =...
+  LLBP.lc(facilityIndex, negativeLCAssignmentsIndices);

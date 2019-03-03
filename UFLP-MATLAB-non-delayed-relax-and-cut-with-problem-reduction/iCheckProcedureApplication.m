@@ -1,0 +1,3 @@
+
+[ pExists, I_ ] = iCheckProcedure( facility, client, I,...
+                                   supplyingCosts, facilityCosts );
