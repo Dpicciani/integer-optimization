@@ -1,0 +1,26 @@
+function [x, z, flag] = linProgSolver(formulation)
+
+if strcmp(formulation.minOrMax, 'max')
+  factor = -1;
+elseif strcmp(formulation.minOrMax, 'min')
+  factor = 1;
+end
+
+options = optimset('linprog');
+options.Display = 'off';
+
+[x, z, flag] = linprog( factor*formulation.c,...
+                               formulation.A,...
+                               formulation.b,...
+                               formulation.Aeq,...
+                               formulation.beq,...
+                               formulation.lowerBound,...
+                               formulation.upperBound,...
+                               [],...
+                               options);
+
+x = numericalErrorsCorrection(x);
+                             
+if strcmp(formulation.minOrMax, 'max'), z = -z; end
+
+end
