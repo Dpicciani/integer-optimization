@@ -1,0 +1,1591 @@
+../../../../database/integer_problems/clique-instances/cliques/brock200_2.clq
+nV, nE : 200 9876
+nV, nE/k : 200 10024/10024
+file open !
+W is empty.
+
+The current set from cover is a subset of W.
+W - length | content : 1 | 0 
+cover :
+C0 - length | content : 2 | 0 1 
+covUnion - length | content : 2 | 0 1 
+
+W is empty.
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 2 | 0 2 
+cover :
+C0 - length | content : 2 | 0 1 
+C1 - length | content : 2 | 2 3 
+covUnion - length | content : 4 | 0 1 2 3 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 2 | 1 2 
+cover :
+C0 - length | content : 2 | 0 1 
+C1 - length | content : 2 | 2 3 
+covUnion - length | content : 4 | 0 1 2 3 
+
+The current set from cover is a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 2 | 0 1 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 2 | 2 3 
+covUnion - length | content : 5 | 0 1 2 3 5 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 3 | 2 3 5 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 6 | 0 1 2 3 5 6 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 3 | 1 3 4 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 6 | 0 1 2 3 5 6 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 6 | 1 3 4 5 6 7 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 6 | 0 1 2 3 5 6 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 4 | 1 2 4 8 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 6 | 0 1 2 3 5 6 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 4 | 2 3 8 9 
+cover :
+C0 - length | content : 3 | 0 1 5 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 6 | 0 1 2 3 5 6 
+
+The current set from cover is a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 9 | 0 1 2 3 4 5 7 9 10 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 7 | 0 1 2 3 5 6 11 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 5 | 0 3 5 9 10 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 7 | 0 1 2 3 5 6 11 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 5 | 2 4 6 10 11 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 7 | 0 1 2 3 5 6 11 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 8 | 1 2 4 6 7 9 11 12 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 7 | 0 1 2 3 5 6 11 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 7 | 0 1 5 7 9 10 13 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 3 | 2 3 6 
+covUnion - length | content : 7 | 0 1 2 3 5 6 11 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 9 | 0 2 3 6 8 9 10 12 13 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 8 | 0 1 2 3 5 6 11 16 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 11 | 0 1 2 3 4 7 8 9 11 15 16 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 8 | 0 1 2 3 5 6 11 16 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 12 | 0 1 5 7 8 9 10 12 14 15 16 17 
+cover :
+C0 - length | content : 4 | 0 1 5 11 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 8 | 0 1 2 3 5 6 11 16 
+
+The current set from cover is a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 12 | 0 1 3 4 5 8 9 10 11 12 15 18 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 9 | 0 1 2 3 5 6 11 16 19 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 9 | 2 4 6 9 11 13 15 16 18 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 9 | 0 1 2 3 5 6 11 16 19 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 8 | 3 6 10 11 13 17 18 20 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 4 | 2 3 6 16 
+covUnion - length | content : 9 | 0 1 2 3 5 6 11 16 19 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 14 | 0 2 3 4 5 6 9 11 12 13 16 17 19 20 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 13 | 1 2 4 7 8 11 12 13 16 17 19 20 22 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 14 | 0 1 3 7 8 9 11 12 14 16 17 18 19 21 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 12 | 1 2 6 7 9 10 13 15 16 20 21 23 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 15 | 0 3 6 9 10 11 12 13 15 17 19 20 22 23 25 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 9 | 3 4 6 9 12 13 18 19 22 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 12 | 3 5 7 9 10 13 16 20 22 23 24 25 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 15 | 2 5 9 10 12 14 16 18 19 20 22 24 25 26 28 
+cover :
+C0 - length | content : 5 | 0 1 5 11 19 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 10 | 0 1 2 3 5 6 11 16 19 22 
+
+The current set from cover is a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 15 | 0 1 2 3 4 5 8 11 13 19 20 21 26 28 29 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 11 | 0 1 2 3 5 6 11 16 19 22 30 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 14 | 0 1 4 5 6 7 12 13 17 19 23 24 25 29 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 11 | 0 1 2 3 5 6 11 16 19 22 30 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 2 7 8 9 10 11 12 15 16 18 20 24 25 26 27 28 29 30 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 11 | 0 1 2 3 5 6 11 16 19 22 30 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 17 | 0 1 3 4 7 9 10 11 12 16 20 21 22 23 24 29 30 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 5 | 2 3 6 16 22 
+covUnion - length | content : 11 | 0 1 2 3 5 6 11 16 19 22 30 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 20 | 0 2 3 4 5 6 11 12 13 14 16 17 18 21 22 24 27 29 30 32 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 19 | 0 3 5 6 8 12 13 14 16 17 19 20 21 23 24 25 30 32 34 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 0 1 2 6 10 13 15 19 21 23 24 25 28 29 30 33 34 35 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 17 | 1 2 3 4 8 10 11 13 15 16 19 20 21 25 26 30 35 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 1 2 6 7 8 12 13 14 15 18 19 21 23 24 29 30 35 36 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 13 | 1 8 13 14 16 18 21 23 25 26 27 33 37 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 17 | 0 1 2 5 7 10 11 14 16 17 19 22 23 26 27 28 34 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 22 | 0 1 2 3 8 9 10 11 12 13 14 15 19 21 24 27 31 33 36 37 38 40 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 1 4 6 7 10 11 15 16 23 24 27 34 35 36 37 38 39 40 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 1 2 4 6 7 8 9 12 16 17 19 20 24 26 27 32 33 34 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 24 | 0 2 4 7 8 10 11 14 16 18 19 20 21 22 24 26 27 28 29 34 35 37 42 43 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 21 | 0 4 5 10 11 13 15 17 19 21 23 26 29 30 34 35 36 37 40 42 44 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 21 | 0 7 8 10 12 13 14 16 17 19 20 22 23 26 31 33 35 36 39 42 45 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 22 | 2 4 8 10 11 13 14 17 18 19 21 24 27 28 29 31 34 36 37 38 43 44 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 16 | 3 5 8 10 16 17 18 20 24 26 28 29 32 33 42 43 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 18 | 1 6 7 8 11 12 15 18 26 29 32 35 36 43 44 45 47 48 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 22 | 1 4 6 7 8 12 13 14 16 17 18 19 20 23 31 32 33 36 41 45 47 48 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 25 | 0 1 4 6 8 12 14 16 18 19 20 21 23 24 25 26 27 29 32 35 36 37 38 43 44 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 25 | 2 5 7 8 9 13 16 17 20 23 24 28 29 31 36 37 42 43 44 45 47 48 49 50 51 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 19 | 0 2 3 6 7 12 14 17 27 29 30 31 38 39 41 45 46 48 49 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 33 | 1 3 4 5 6 7 8 13 14 16 18 19 20 21 22 23 24 25 28 29 32 36 40 41 42 43 44 45 48 49 50 51 52 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 24 | 0 2 4 5 6 9 14 16 17 19 20 24 26 29 30 32 36 38 39 43 45 46 49 53 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 30 | 0 1 7 9 10 15 17 18 19 20 25 26 27 28 30 31 33 34 35 40 43 44 46 48 49 50 51 52 53 54 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 24 | 0 1 3 6 8 9 12 16 17 20 23 24 26 27 29 37 38 40 41 44 50 51 53 54 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 32 | 0 2 3 4 5 8 9 10 12 16 17 18 19 20 21 23 24 25 27 28 29 31 32 37 38 41 44 49 50 51 52 53 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 31 | 0 2 3 4 6 11 13 14 15 16 18 20 22 24 25 26 27 28 29 32 35 36 38 39 43 47 52 53 54 56 57 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 33 | 2 3 4 10 13 15 16 17 18 19 20 23 24 26 28 29 30 31 33 34 35 37 38 39 40 41 42 44 46 49 51 54 56 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 30 | 1 2 5 6 8 9 11 12 13 14 15 16 18 20 22 23 25 31 32 34 36 39 41 42 43 48 53 55 58 59 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 30 | 0 4 6 10 12 18 21 24 25 26 27 28 31 32 33 34 36 37 38 39 43 49 50 51 52 54 56 57 58 60 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 36 | 1 2 4 5 8 9 10 13 14 17 18 19 20 22 23 24 26 27 28 29 30 31 32 33 42 43 44 46 47 49 50 52 54 55 56 57 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 39 | 0 2 4 6 7 9 10 11 12 13 15 17 19 20 21 22 24 25 26 27 29 30 32 35 36 37 39 41 42 45 46 47 52 54 55 57 58 60 62 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 40 | 0 3 5 7 11 13 14 15 16 18 20 24 25 26 27 28 29 30 31 32 35 36 37 38 39 40 41 42 44 45 48 49 53 54 58 59 60 61 62 64 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 25 | 4 6 7 16 17 18 19 22 23 24 28 31 32 33 36 37 40 43 50 53 54 55 57 61 63 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 35 | 1 2 3 4 5 6 7 8 11 14 19 21 22 24 25 29 30 31 33 35 36 37 38 39 41 46 49 54 56 57 58 61 62 65 66 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 28 | 0 2 4 5 7 15 17 24 25 27 28 32 36 37 39 41 44 47 52 53 54 55 59 60 61 63 64 65 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 32 | 0 1 2 4 5 7 11 14 15 16 20 22 27 30 33 34 36 38 43 44 50 51 56 58 60 61 62 63 64 65 66 67 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 38 | 1 2 4 6 8 12 13 14 15 17 18 19 22 23 24 27 28 30 32 34 36 38 39 41 45 46 49 50 51 53 54 55 59 60 65 66 68 69 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 39 | 2 3 4 5 6 7 8 9 11 13 16 17 20 21 22 25 26 27 29 31 32 35 36 37 40 43 48 51 53 55 56 58 59 60 61 62 63 64 67 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 32 | 0 1 2 5 6 8 10 12 13 18 20 22 25 28 29 34 35 36 38 40 41 42 45 47 55 57 59 63 66 68 69 70 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 36 | 1 3 5 6 8 9 12 14 16 22 25 27 28 29 30 32 35 37 38 39 40 42 44 45 46 50 55 56 57 59 60 63 67 68 69 70 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 36 | 1 2 4 6 7 9 10 11 12 13 14 18 19 20 21 22 26 28 29 31 38 39 41 43 46 47 50 54 57 58 59 61 62 63 66 71 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 34 | 0 1 2 3 4 5 11 12 18 19 21 25 27 31 32 34 35 36 38 42 47 48 49 50 51 54 56 59 60 61 62 66 67 69 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 39 | 0 3 5 6 8 9 12 14 15 16 19 25 28 29 32 33 35 39 42 44 46 48 49 52 54 56 59 60 63 64 65 66 67 68 70 71 73 74 75 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 42 | 0 1 3 4 8 10 12 14 15 17 20 22 25 27 28 30 33 36 37 39 40 41 42 43 45 47 49 50 51 59 62 63 64 66 67 68 70 71 72 73 74 75 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 39 | 1 2 4 6 10 12 13 15 17 18 19 21 25 26 28 31 33 37 42 44 45 47 48 49 50 51 53 54 56 57 61 62 64 65 67 68 69 73 76 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 46 | 0 2 3 6 7 9 10 12 15 16 18 19 20 23 26 28 29 30 31 36 38 39 40 41 42 46 49 50 51 52 53 54 55 56 58 59 60 61 64 65 67 70 73 75 76 78 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 43 | 0 1 4 8 12 14 16 17 19 23 24 25 26 27 28 29 31 34 36 37 38 40 41 42 48 49 50 52 56 61 62 63 64 65 66 67 69 70 72 75 76 77 79 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 40 | 0 1 4 8 9 10 11 13 15 17 18 19 22 25 26 27 28 29 30 32 37 38 42 44 45 49 50 53 54 55 58 61 63 64 65 67 69 71 73 79 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 35 | 3 4 10 17 19 26 28 31 32 37 38 39 40 41 42 47 49 52 53 54 56 57 61 62 63 66 67 68 69 71 74 77 78 79 80 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 45 | 0 2 3 4 5 6 7 9 14 15 16 17 21 22 26 30 33 37 38 39 40 42 44 46 48 49 52 53 55 57 58 59 61 62 63 65 67 68 69 71 73 74 79 80 81 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 42 | 0 2 3 5 8 9 10 16 17 19 21 25 26 27 28 30 32 33 36 37 42 44 45 46 49 50 51 55 56 57 58 59 60 61 68 72 73 76 78 80 81 82 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 39 | 0 2 4 5 11 13 16 19 20 23 25 28 29 32 33 36 38 39 40 42 47 49 51 52 56 57 60 62 65 66 70 73 74 76 77 78 79 81 82 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 35 | 0 1 8 9 11 13 15 20 23 25 26 28 30 31 39 42 45 49 50 51 52 53 55 57 58 61 62 64 65 70 74 78 80 84 85 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 44 | 0 1 6 10 11 12 14 17 19 20 22 23 25 26 27 28 30 37 38 39 43 44 49 50 51 52 54 57 58 59 61 64 65 66 67 68 69 73 75 80 81 83 85 86 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 43 | 2 3 5 7 10 11 12 13 14 15 16 18 19 22 27 29 33 37 39 42 43 44 47 48 52 55 57 58 60 61 62 63 64 65 68 70 71 72 74 76 82 83 86 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 45 | 1 2 3 8 11 13 14 15 17 19 21 25 26 29 30 33 38 39 40 41 42 43 44 46 47 50 51 52 53 56 57 58 59 63 68 69 70 72 73 76 77 78 82 85 88 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 44 | 3 6 14 15 16 17 19 20 23 25 26 29 30 31 32 33 34 35 38 40 43 44 46 48 53 54 57 58 59 63 64 65 66 71 72 73 74 76 78 82 83 84 88 89 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 44 | 1 4 6 10 12 13 15 16 18 19 21 22 24 25 28 29 30 32 33 35 36 37 38 41 42 43 45 46 47 49 50 59 62 64 66 67 70 75 78 80 84 85 87 90 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 55 | 1 2 3 4 5 6 7 9 11 12 14 19 21 22 23 24 26 27 29 31 33 34 36 41 42 43 44 51 56 57 58 59 62 63 67 68 69 70 71 72 74 75 76 77 78 79 81 82 83 85 86 87 89 90 91 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 47 | 1 4 8 10 11 12 13 14 15 16 18 20 23 24 25 26 29 31 32 34 38 41 42 45 46 51 52 53 54 55 59 66 67 69 73 74 75 76 78 79 80 82 83 84 85 88 92 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 49 | 0 1 2 5 8 10 14 15 18 19 20 23 24 27 28 30 31 35 37 38 39 41 44 45 47 48 49 50 58 60 63 64 67 70 72 73 74 75 76 77 78 80 81 82 83 84 85 89 93 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 53 | 0 1 3 6 7 8 9 10 11 12 13 14 16 19 20 22 23 24 26 27 28 29 31 32 35 37 38 39 40 41 42 43 46 47 51 53 58 59 63 65 66 73 75 77 78 81 83 84 86 89 91 92 93 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 53 | 0 2 4 7 9 12 13 15 18 24 26 27 28 29 30 33 34 38 40 41 42 43 45 48 50 52 53 54 56 57 58 59 63 64 66 67 69 73 74 75 79 81 83 84 85 86 87 89 90 91 92 93 95 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 59 | 1 2 4 5 6 7 8 9 10 11 12 13 15 19 20 22 25 26 27 29 31 32 33 34 35 36 37 39 40 42 44 48 49 50 51 52 53 54 55 56 59 61 64 66 67 68 73 74 75 76 78 80 81 84 85 89 90 92 93 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 57 | 2 3 4 5 6 10 15 18 21 24 25 26 27 28 29 30 31 33 34 38 40 42 44 45 46 49 51 52 53 55 57 63 64 65 66 67 68 69 71 72 73 74 75 76 77 78 79 82 83 84 86 88 90 93 94 96 97 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 54 | 1 2 3 4 6 8 10 11 14 15 17 18 19 20 21 24 26 31 32 33 36 38 42 43 44 45 48 49 54 55 56 57 62 63 64 67 68 71 74 76 77 78 79 80 83 85 86 88 89 91 94 96 97 98 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 59 | 0 2 3 5 8 10 12 13 14 15 17 19 23 24 27 30 31 33 35 37 38 39 40 41 43 44 47 48 52 54 55 56 57 58 59 60 62 66 68 69 73 75 76 78 79 80 82 83 84 85 88 89 90 91 94 95 96 97 98 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 54 | 3 4 5 6 8 9 11 15 16 17 18 19 20 21 23 24 25 27 31 32 34 38 39 40 41 42 45 47 49 50 51 52 54 56 57 62 63 64 67 68 70 71 74 76 77 79 80 82 92 93 94 98 99 100 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 51 | 3 4 5 7 10 12 14 15 17 18 20 21 25 28 30 32 33 34 35 36 37 39 45 46 49 50 51 53 54 58 60 63 67 69 72 73 74 78 79 82 85 86 90 92 93 94 95 96 98 99 100 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 49 | 1 2 5 6 8 10 12 15 16 18 19 25 26 29 31 36 37 41 45 47 48 49 50 53 54 55 56 58 59 60 62 65 66 67 68 71 72 75 76 78 79 83 87 88 90 91 94 99 102 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 56 | 2 3 5 8 9 12 13 14 15 16 18 19 21 22 23 24 27 28 30 31 32 33 35 38 39 40 41 42 45 46 51 53 55 56 59 62 68 70 72 73 74 78 79 84 85 86 87 89 90 91 92 96 97 99 100 101 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 52 | 3 4 5 7 8 12 15 18 19 20 22 26 27 29 30 33 34 35 36 38 39 41 42 43 44 46 48 50 52 53 55 58 67 68 70 71 72 74 76 77 78 80 81 82 87 89 90 94 96 101 102 103 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 55 | 2 3 4 5 10 16 18 19 20 21 22 24 26 27 28 29 32 33 34 36 37 38 39 40 46 47 48 50 52 55 56 57 60 61 63 67 70 72 73 77 79 80 81 83 84 89 90 91 94 97 99 100 102 104 105 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 51 | 1 4 5 10 11 12 13 15 17 21 29 30 32 34 35 37 39 41 43 44 46 47 49 50 51 52 53 64 65 66 67 68 69 71 72 73 74 75 76 77 78 82 88 92 93 94 96 97 100 103 104 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 50 | 0 1 2 3 4 8 12 13 14 16 17 18 20 21 25 29 32 33 34 35 38 41 42 46 47 51 54 58 61 64 66 68 69 70 75 76 77 78 79 81 88 89 90 92 94 100 101 105 106 107 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 49 | 0 4 6 8 9 10 11 15 18 21 23 25 26 31 36 37 38 40 44 46 47 49 51 52 53 55 57 58 63 64 66 69 70 72 73 75 78 79 81 85 87 89 91 95 96 100 101 103 105 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 65 | 1 2 4 5 6 7 10 11 13 14 15 17 20 21 23 26 27 28 30 31 32 36 39 41 42 45 47 49 50 55 58 62 63 64 65 67 69 70 74 75 76 77 78 80 81 82 83 84 86 87 90 91 93 96 97 98 99 101 102 103 104 105 106 107 109 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 6 | 2 3 6 16 22 34 
+covUnion - length | content : 12 | 0 1 2 3 5 6 11 16 19 22 30 34 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is a subset of W.
+W - length | content : 56 | 0 1 2 3 6 7 13 14 15 16 17 18 20 21 22 26 28 29 30 31 34 36 42 43 47 52 55 57 58 61 65 66 67 68 70 74 75 76 81 84 85 88 90 91 92 93 95 96 98 102 103 104 105 108 109 110 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 49 | 0 2 5 7 8 9 15 16 18 20 22 24 25 26 29 30 31 33 34 35 38 39 40 41 42 44 49 50 52 53 55 58 59 63 66 69 72 75 76 78 80 83 84 88 96 98 102 105 106 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 62 | 0 1 2 7 9 12 13 14 15 17 18 21 22 23 24 25 28 32 34 35 39 40 41 42 44 45 47 48 49 52 53 56 60 61 62 63 64 65 66 68 70 73 74 75 78 80 81 83 88 89 90 93 95 97 98 100 102 104 106 107 110 112 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 56 | 7 8 10 12 13 16 17 18 19 20 22 23 24 26 27 29 30 37 39 45 46 48 50 52 53 54 62 66 68 73 74 75 78 79 80 81 83 86 87 88 89 90 94 96 98 99 101 102 103 104 107 108 110 111 112 113 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 58 | 0 1 3 5 7 8 9 12 13 17 20 21 22 24 25 28 32 35 36 39 41 42 43 48 51 53 54 59 60 63 64 65 66 68 71 72 74 77 78 79 80 81 84 88 91 92 95 96 97 98 99 100 102 104 106 109 112 113 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 55 | 0 2 4 5 6 7 8 9 10 14 15 17 19 21 25 28 29 30 33 38 39 41 44 47 50 54 56 58 61 62 72 73 74 75 76 77 78 79 82 83 84 85 89 90 94 95 96 97 98 102 103 106 107 111 112 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 57 | 0 7 10 12 14 15 17 21 24 25 26 27 31 32 34 36 38 39 40 45 46 48 50 51 52 54 55 60 61 62 65 67 70 71 73 74 75 76 77 78 81 86 88 92 97 98 100 102 104 105 107 108 109 111 112 114 115 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 0 3 8 9 10 11 12 13 14 16 17 20 21 25 26 30 32 33 34 37 39 40 42 43 46 49 52 53 54 55 56 57 58 59 61 62 64 65 67 68 69 70 72 73 74 77 80 81 85 86 87 89 90 91 94 95 97 98 99 100 101 102 103 104 105 106 108 109 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 57 | 4 8 10 12 17 18 19 22 25 29 30 32 33 35 36 37 38 39 44 45 46 51 52 55 57 59 61 64 66 68 71 72 73 76 80 81 82 83 86 88 89 90 95 96 99 102 103 105 106 107 108 110 111 112 113 114 116 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 54 | 0 4 5 6 7 9 10 12 14 15 16 17 20 23 27 34 35 38 40 42 45 48 52 53 57 58 62 67 71 72 73 75 76 77 78 80 84 86 88 89 91 92 93 94 95 97 98 99 101 102 106 107 114 117 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 63 | 2 4 6 7 8 9 10 11 12 16 17 18 19 21 29 31 33 34 35 37 38 39 44 45 46 47 54 57 58 59 60 62 63 64 66 67 68 70 72 74 76 81 82 84 86 88 89 90 91 92 95 96 98 99 100 104 105 106 112 114 117 118 120 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 67 | 0 1 3 5 6 7 9 10 11 13 14 16 21 22 24 25 28 29 32 33 34 35 36 37 38 39 41 42 43 46 47 49 50 51 52 53 60 61 63 66 67 68 70 71 76 78 79 83 87 89 90 93 94 95 96 97 98 99 102 104 106 112 113 115 116 119 120 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 64 | 0 6 7 10 11 14 18 21 23 24 25 30 33 34 35 36 37 40 41 42 45 47 48 49 50 52 54 56 58 60 62 66 67 68 71 72 73 74 75 76 79 81 82 83 84 85 87 89 90 91 93 96 97 99 104 106 107 108 111 114 118 120 121 122 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 62 | 0 1 4 5 6 7 10 11 13 16 19 20 22 24 26 29 32 33 37 38 39 41 42 44 45 47 48 49 52 54 55 58 61 62 63 68 72 73 77 78 79 83 85 90 92 98 101 102 103 105 106 107 109 110 111 113 115 117 120 121 122 123 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 70 | 3 4 5 6 7 10 11 12 14 16 18 19 20 21 22 29 31 32 33 34 35 38 39 40 43 44 45 46 48 49 51 54 55 56 58 59 62 63 64 66 68 69 70 72 73 74 76 77 79 81 83 86 87 88 90 91 92 94 95 96 98 103 104 108 109 110 117 119 122 123 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 69 | 1 2 9 13 15 16 17 18 21 25 26 27 30 31 32 33 34 36 37 38 39 40 43 44 50 51 53 55 59 60 63 64 65 66 67 68 70 71 73 75 76 77 82 84 88 89 90 92 93 94 95 96 97 98 99 104 105 107 109 110 112 113 114 115 118 120 121 123 124 
+cover :
+C0 - length | content : 6 | 0 1 5 11 19 30 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 13 | 0 1 2 3 5 6 11 16 19 22 30 34 111 
+
+The current set from cover is a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 0 1 4 5 11 15 16 18 19 20 22 23 27 28 30 32 33 34 35 38 39 40 43 44 45 46 47 48 51 53 54 55 57 59 60 61 63 64 69 70 71 72 74 78 80 81 82 83 87 89 91 93 94 96 100 102 105 106 107 109 111 114 115 116 119 121 122 125 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 0 2 3 5 8 9 12 13 16 18 20 22 25 27 30 32 34 35 38 39 43 45 46 48 49 55 60 61 66 67 69 71 74 75 77 78 79 83 85 88 89 90 91 92 93 94 97 98 99 100 103 104 105 106 107 110 111 113 115 116 117 120 121 123 124 125 126 127 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 0 2 3 4 7 9 10 12 14 15 16 17 18 19 21 23 26 29 30 35 36 38 39 48 49 50 51 52 55 57 59 60 61 62 63 65 66 67 72 73 74 76 77 79 82 83 86 87 89 92 95 97 100 101 102 103 104 105 106 110 111 112 116 117 118 119 120 123 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 58 | 0 1 2 3 15 16 17 18 19 23 25 27 32 33 35 42 43 45 48 49 51 54 58 59 60 62 64 66 67 71 73 75 76 78 79 81 86 89 92 95 97 98 99 100 101 103 104 105 106 107 108 113 114 115 116 120 123 129 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 63 | 0 2 4 8 9 11 14 16 17 19 21 23 24 26 28 32 37 38 39 40 41 42 43 45 46 47 50 51 56 57 58 61 63 64 65 66 67 69 70 72 74 75 77 78 80 81 87 92 95 99 100 102 105 110 112 113 115 117 118 120 121 123 129 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 69 | 0 4 6 7 10 11 12 14 15 16 19 20 23 25 26 27 31 33 35 36 37 38 39 42 43 45 46 47 49 50 51 52 56 63 64 66 67 70 75 76 77 81 82 85 86 89 90 91 92 93 95 96 103 104 105 106 109 111 112 113 116 117 120 122 124 126 127 130 131 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 60 | 0 4 7 11 14 17 19 20 21 23 24 27 29 30 32 33 34 35 36 41 42 45 46 50 52 54 59 60 61 62 66 74 75 76 77 78 80 81 84 86 88 89 90 94 95 97 98 99 103 104 105 113 116 119 121 122 123 124 125 131 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 78 | 1 4 5 6 8 11 12 13 15 18 19 20 23 24 25 28 29 31 32 33 34 35 36 37 39 40 41 45 46 48 49 50 52 53 56 57 59 60 61 64 65 67 68 72 73 74 75 76 77 78 79 80 81 83 84 85 86 88 94 95 98 100 101 102 103 105 110 111 112 113 115 116 117 122 123 126 131 133 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 70 | 0 1 3 4 7 10 11 12 15 19 20 21 22 24 25 26 27 30 31 35 37 38 40 42 44 47 48 50 54 55 57 58 60 61 63 64 65 66 71 72 75 76 77 78 81 82 85 89 90 96 97 102 106 108 109 110 111 113 118 119 120 121 122 124 125 127 128 130 132 133 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 0 1 3 11 13 14 15 18 19 20 23 28 29 33 35 36 37 38 39 42 44 47 48 51 53 54 55 56 58 59 60 61 66 72 74 76 77 81 85 87 88 89 90 91 92 93 95 100 102 103 104 105 106 107 108 111 112 115 116 118 120 122 125 128 130 131 132 133 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 67 | 0 1 2 3 7 9 11 12 13 15 19 24 25 26 32 33 34 37 38 39 40 41 43 45 46 47 48 49 53 57 59 62 63 65 66 68 69 70 71 75 76 80 81 85 88 89 91 92 94 96 100 102 104 106 110 112 117 118 119 121 122 124 127 128 129 131 133 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 66 | 0 1 3 4 8 10 12 14 15 16 18 20 21 23 24 25 26 29 33 34 35 39 41 43 44 45 50 51 52 53 57 58 59 62 63 65 68 69 71 74 76 78 79 82 83 87 91 92 95 97 99 102 103 106 109 113 118 119 120 124 125 126 127 128 130 131 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 81 | 1 4 5 6 9 10 11 12 13 14 15 20 21 22 23 27 30 33 34 35 36 37 39 40 41 42 44 47 48 49 59 60 63 65 66 67 69 70 71 72 73 76 77 79 80 81 82 83 84 85 89 90 91 93 94 96 99 101 102 103 104 108 109 110 113 115 116 117 118 119 122 123 126 127 128 130 131 133 135 136 138 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 64 | 1 5 6 11 14 18 19 22 23 24 25 26 27 32 37 38 41 43 44 45 46 47 49 52 55 56 57 59 60 62 63 64 65 67 68 72 74 77 78 82 85 86 87 90 92 94 95 97 98 100 101 106 108 109 112 113 120 121 122 129 130 132 135 138 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 72 | 1 3 5 6 7 8 12 14 16 17 21 23 29 30 33 34 35 36 37 41 42 45 47 49 53 55 56 59 60 61 64 65 66 67 68 70 71 73 74 79 80 81 85 86 87 88 90 92 93 94 95 96 97 99 104 108 109 116 119 121 122 124 125 127 129 132 133 134 135 137 138 139 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 68 | 6 7 9 11 16 17 18 19 22 26 27 29 31 32 33 37 38 40 42 48 50 51 53 54 55 56 60 61 62 65 68 71 74 78 79 80 82 83 85 86 87 90 91 92 93 94 100 101 102 103 105 108 109 113 116 117 118 120 121 123 126 127 128 130 133 138 139 141 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 76 | 1 2 5 6 7 11 13 14 15 16 18 20 21 24 25 27 29 30 31 32 35 37 38 39 44 52 54 55 57 60 61 67 68 69 72 73 75 76 77 78 80 81 83 85 86 88 89 90 92 93 98 105 107 109 110 115 116 117 118 121 122 124 126 127 129 130 131 132 133 134 135 136 137 139 140 141 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 78 | 0 1 2 3 9 10 13 14 17 18 20 21 22 27 28 29 31 33 35 36 37 40 41 42 43 46 49 52 53 55 58 60 61 62 63 65 68 71 75 77 79 80 83 85 87 89 90 91 93 94 95 97 98 99 103 105 107 108 109 110 113 114 115 116 118 123 126 127 128 130 133 135 136 139 140 141 142 143 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 79 | 2 3 6 7 14 15 17 18 19 20 21 22 23 24 28 29 30 32 34 36 40 41 44 45 46 47 48 50 54 55 56 61 62 63 64 65 67 69 70 71 73 74 75 76 77 78 82 84 86 88 89 90 91 94 96 97 99 101 102 104 107 110 113 115 119 121 122 123 124 125 127 128 131 133 135 137 139 140 142 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 67 | 0 3 7 8 9 10 11 12 13 14 16 17 18 21 23 25 26 27 28 29 30 31 33 37 38 39 41 42 47 49 52 53 55 58 59 62 66 68 73 75 78 81 82 83 85 86 87 94 98 103 105 110 112 113 117 119 124 125 126 127 129 130 132 134 136 139 145 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 72 | 0 1 2 11 13 14 15 19 20 23 24 25 28 29 30 31 33 34 35 36 37 38 41 42 43 44 45 48 50 51 55 57 59 63 69 73 74 75 76 77 79 81 88 89 94 96 97 99 100 103 104 106 109 110 112 114 115 117 118 119 121 122 123 125 129 131 134 138 142 143 144 146 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 71 | 2 3 5 6 7 8 9 11 12 14 15 21 23 25 27 29 30 31 32 34 35 39 43 49 50 53 55 56 57 58 59 61 65 66 67 68 70 71 72 75 77 79 83 84 85 86 88 91 92 97 98 101 105 107 112 113 115 116 117 121 124 125 126 128 129 131 132 136 141 142 147 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 80 | 0 2 5 6 8 9 11 13 15 18 19 21 22 23 25 26 27 30 33 37 38 40 41 43 44 46 47 51 53 55 57 59 64 65 70 72 73 75 76 77 80 82 87 90 92 93 97 98 99 100 103 104 107 108 109 111 113 114 118 119 120 121 122 125 126 127 128 130 131 132 133 135 137 138 139 140 141 143 146 148 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 67 | 1 3 4 5 7 10 12 14 16 18 19 25 28 29 30 33 34 38 39 40 42 44 45 46 47 48 49 57 58 59 63 65 73 74 75 82 84 85 87 88 89 90 93 96 98 100 101 104 105 110 112 114 116 117 119 122 123 126 129 133 136 139 140 141 146 147 148 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 77 | 0 1 5 6 10 12 14 17 20 22 24 26 27 28 29 31 32 34 39 40 41 45 46 47 48 49 53 55 56 61 62 63 65 66 71 74 75 76 77 78 79 81 82 85 88 89 90 91 94 95 100 102 103 105 106 110 111 112 113 114 120 121 122 123 125 130 131 136 138 140 141 142 145 147 148 149 150 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 85 | 0 1 2 4 8 10 11 12 14 16 18 19 21 22 23 28 29 30 32 34 35 36 37 38 41 43 45 49 50 54 56 58 59 63 64 65 68 70 71 73 74 75 76 77 78 79 80 81 82 83 84 85 87 91 93 94 95 97 101 102 103 104 107 109 110 111 117 118 120 123 124 125 126 128 129 132 137 141 143 144 146 147 148 149 151 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 74 | 2 3 4 5 6 8 9 11 12 13 16 19 26 27 28 30 33 37 40 42 44 47 49 51 52 53 56 58 59 61 63 66 71 74 78 80 83 84 86 87 89 90 91 93 96 97 98 99 100 102 103 104 106 107 109 110 112 115 117 118 120 123 124 127 130 131 134 135 136 139 144 146 147 152 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 79 | 0 1 4 5 6 8 11 13 17 20 21 25 27 28 31 33 35 39 42 43 45 46 47 49 50 51 52 54 56 58 59 62 63 65 66 69 73 74 76 78 81 84 85 86 87 88 89 90 94 97 98 101 102 106 108 109 110 113 114 116 119 120 121 122 124 125 126 127 131 132 133 134 136 138 139 141 145 150 153 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 75 | 0 2 3 7 10 11 13 19 22 23 25 26 28 31 35 36 39 40 41 42 44 45 51 52 53 54 55 56 57 58 60 62 65 69 73 79 85 86 88 90 91 92 99 100 102 103 104 105 111 112 114 118 119 122 124 125 127 129 130 131 132 134 135 138 139 140 143 145 147 148 149 150 151 152 153 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 72 | 0 1 2 3 4 7 10 13 14 15 16 18 22 23 25 26 27 28 31 32 34 35 39 44 45 46 49 50 54 55 61 64 65 66 68 74 77 80 82 84 85 86 88 91 97 98 101 102 103 106 108 110 111 114 116 117 120 121 123 124 129 133 134 135 137 140 141 142 148 149 151 154 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 72 | 0 1 2 5 6 7 11 16 17 22 24 25 28 30 32 33 35 37 38 39 40 41 42 43 46 48 50 53 55 57 58 60 62 65 66 67 70 76 77 82 83 84 90 91 92 94 95 100 102 109 111 113 118 121 124 127 128 129 130 132 137 138 139 140 143 145 146 149 150 151 152 156 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 76 | 1 2 4 5 10 11 16 19 20 21 22 23 24 26 27 29 30 31 32 36 42 43 47 48 49 51 54 55 57 58 59 61 63 66 67 68 72 75 80 82 87 88 92 93 95 97 98 99 101 103 106 108 114 115 116 117 120 121 122 123 124 125 126 127 128 130 133 136 141 142 143 144 146 147 152 154 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 87 | 1 4 10 12 13 16 20 22 23 24 25 26 29 30 33 34 44 48 50 51 53 54 55 57 62 63 64 66 67 69 70 71 72 74 75 76 77 79 80 81 84 85 87 89 91 92 93 98 99 101 103 105 106 107 108 109 112 114 116 117 118 121 124 125 126 127 128 129 130 131 133 134 136 137 138 141 142 143 147 148 149 151 152 153 154 155 157 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 70 | 3 6 8 13 15 16 19 20 22 26 27 28 29 30 31 38 39 41 43 46 47 48 49 53 55 56 59 61 64 65 66 68 72 76 77 80 81 82 84 86 91 92 94 95 98 99 100 103 104 106 112 113 118 119 127 130 133 134 138 140 141 143 144 145 147 150 153 154 155 156 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 84 | 2 3 4 6 7 9 11 14 15 17 18 19 20 21 22 24 25 27 30 36 38 44 46 48 49 50 51 54 58 59 60 61 63 64 66 67 68 69 70 71 75 77 78 79 80 83 84 87 88 89 90 93 94 97 98 99 100 101 103 111 113 114 115 116 117 118 130 131 134 136 137 139 140 142 144 145 147 148 149 150 155 157 158 160 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 79 | 1 3 5 9 14 18 19 20 23 25 26 27 28 30 31 34 36 42 44 46 49 51 53 54 57 58 60 61 64 65 67 69 70 72 73 74 76 81 85 92 95 97 102 103 104 107 108 110 111 112 113 114 116 121 123 125 129 130 131 132 135 136 139 140 142 143 145 146 147 148 150 151 152 154 155 157 159 160 161 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 79 | 0 1 4 5 7 9 15 17 18 21 23 28 29 33 34 37 38 39 40 46 47 49 55 57 59 60 61 65 66 67 68 69 71 73 74 75 76 77 79 81 83 84 86 89 90 94 95 96 99 101 103 106 107 108 110 111 112 113 114 120 123 124 125 128 132 133 135 136 138 143 145 148 149 151 155 156 157 159 160 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 83 | 0 1 2 4 5 9 11 12 14 15 17 18 21 22 24 27 28 29 31 34 36 39 40 41 42 44 45 52 54 55 60 61 62 64 65 67 68 70 72 74 76 77 81 82 84 88 89 91 93 94 96 98 103 104 105 108 109 110 115 116 119 120 126 127 129 130 131 132 134 135 139 140 141 143 144 146 149 150 151 153 156 161 162 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 71 | 0 5 8 10 13 15 16 28 30 32 35 36 37 39 42 47 48 51 53 55 56 59 60 62 68 69 70 71 72 76 80 81 85 86 90 96 97 106 108 109 112 113 115 118 119 120 122 123 124 129 130 131 132 133 134 137 140 141 142 145 146 147 148 150 151 152 153 154 158 160 162 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 81 | 2 3 5 6 11 14 15 18 19 20 21 23 24 26 27 29 30 33 37 41 43 44 47 48 49 50 52 53 61 62 64 65 68 70 71 72 73 76 81 82 83 84 85 87 88 91 93 96 102 103 106 107 111 113 114 117 118 119 120 122 123 125 126 127 130 133 134 135 136 137 138 140 141 142 147 150 154 157 160 163 164 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 87 | 0 2 3 6 8 10 14 15 17 23 25 26 27 28 30 33 35 36 39 40 41 43 44 45 46 48 51 53 55 56 57 61 62 63 64 68 73 77 79 81 82 85 87 88 91 94 95 96 97 99 104 106 109 110 113 114 115 116 117 118 119 120 121 125 126 128 129 130 133 134 139 140 142 144 145 146 150 153 155 156 157 158 159 161 162 165 166 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 87 | 1 4 8 11 15 16 17 18 19 31 32 33 35 36 39 40 43 44 46 47 48 51 52 53 60 61 62 63 65 66 67 69 70 72 73 74 76 78 79 80 82 84 85 87 89 90 93 94 95 96 98 103 107 109 111 113 115 116 117 119 125 126 127 129 131 132 134 135 136 137 139 141 142 144 147 150 151 152 153 154 155 156 158 161 162 163 167 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 85 | 0 1 2 3 7 10 12 15 16 19 21 22 23 24 26 28 29 34 36 38 39 41 43 44 45 47 48 49 50 52 59 60 61 63 64 65 66 77 78 79 82 84 85 87 89 90 91 92 93 94 96 97 98 99 103 104 105 107 109 110 111 114 115 118 119 120 123 124 125 129 131 133 135 137 138 139 140 143 146 147 153 157 159 161 162 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 82 | 2 3 6 9 14 16 17 20 21 22 23 24 25 27 29 31 32 39 41 43 45 46 47 48 50 52 54 56 61 64 65 66 69 72 73 79 81 83 84 87 88 89 90 91 96 97 98 99 100 103 104 106 108 109 111 116 117 118 120 121 123 124 127 131 133 137 139 140 143 144 145 150 151 152 154 155 157 159 161 163 165 166 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 85 | 1 3 5 7 8 9 13 14 15 16 19 21 22 24 26 28 29 30 31 32 34 35 36 37 38 39 41 43 47 49 50 53 55 56 57 59 61 66 67 68 69 70 73 77 81 82 83 85 86 89 90 91 92 94 95 97 102 109 111 115 116 118 120 121 122 125 126 127 133 134 137 141 142 143 147 148 152 153 155 159 162 163 166 167 170 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 88 | 2 6 11 12 13 15 17 18 22 25 26 29 31 32 33 34 36 37 38 39 41 42 43 44 45 46 48 50 51 52 54 55 57 60 62 63 65 66 68 69 71 72 73 78 79 81 82 83 84 86 91 92 95 98 99 101 105 107 108 112 115 117 120 121 122 123 124 130 132 134 136 138 139 142 145 147 152 153 154 155 156 158 159 161 164 167 169 171 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 89 | 0 1 2 5 8 12 13 15 16 17 19 21 24 26 29 31 32 35 36 39 42 44 46 47 48 50 52 54 55 57 58 59 60 65 68 70 72 73 76 78 81 82 84 85 86 87 88 89 90 92 93 98 100 101 105 108 110 112 119 121 123 124 128 132 133 136 137 139 140 142 143 144 146 147 148 152 155 156 158 159 160 164 165 166 167 168 169 171 172 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 84 | 0 1 2 4 5 6 10 12 13 17 24 26 27 28 30 33 35 36 40 41 42 45 46 49 50 52 53 54 56 57 58 61 62 63 64 66 69 70 71 72 76 77 78 81 86 90 96 97 98 100 102 103 104 108 109 112 113 115 116 117 121 123 124 126 132 136 137 140 141 142 145 147 148 150 152 156 158 159 160 162 164 165 169 170 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 88 | 0 1 4 7 8 10 14 21 22 23 26 28 31 33 34 38 39 40 41 43 45 48 49 50 53 57 58 60 62 63 64 65 67 68 69 70 71 73 78 80 82 85 94 95 96 97 98 100 102 104 106 107 110 112 113 115 119 120 121 122 123 124 125 126 128 130 132 133 136 137 138 141 144 146 147 152 154 156 158 160 163 165 166 167 169 170 171 174 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 94 | 0 2 4 6 7 13 15 17 18 19 21 22 23 26 31 33 34 37 38 40 41 43 44 46 49 50 52 54 55 57 58 60 62 65 66 69 71 73 74 75 78 82 83 85 86 89 90 92 93 94 95 98 99 100 103 106 107 108 110 111 113 115 118 119 120 121 125 129 130 131 137 138 139 140 141 144 145 146 148 149 150 151 153 154 156 158 159 160 161 162 164 165 170 171 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 89 | 0 2 3 4 5 6 9 11 14 15 17 19 22 33 36 39 40 42 45 46 53 54 55 62 63 65 67 68 70 71 72 74 76 77 78 80 81 82 84 87 91 92 93 94 95 96 97 98 99 103 104 106 109 110 114 116 117 118 119 122 123 128 130 131 132 134 136 137 138 139 142 143 146 148 149 153 154 156 157 159 162 163 167 168 169 170 173 174 175 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 88 | 0 5 7 10 13 15 16 18 21 22 24 25 26 29 32 37 38 40 41 42 44 47 49 50 51 52 54 57 58 63 65 67 70 73 76 81 83 85 88 89 91 93 94 97 98 99 101 102 103 104 106 108 110 111 113 114 116 120 121 124 125 126 127 130 131 133 134 135 136 139 142 146 149 150 151 152 153 154 159 160 161 166 170 172 173 174 175 176 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 91 | 0 4 6 7 8 10 12 14 15 19 21 22 24 25 26 29 32 35 36 38 42 44 45 46 48 54 57 60 61 63 67 71 74 76 77 80 81 82 83 84 85 86 88 91 93 96 100 101 102 103 105 106 110 111 114 115 119 122 123 124 125 126 127 128 130 131 132 133 134 135 136 137 138 139 141 142 144 148 151 156 158 159 161 164 166 168 169 171 173 174 178 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 80 | 0 1 2 4 8 10 12 14 17 18 20 22 24 27 28 31 32 35 38 39 40 41 46 49 50 51 52 60 61 62 63 64 69 70 72 75 80 86 87 88 94 99 100 101 102 104 105 107 109 111 112 118 119 123 126 127 128 129 132 133 136 137 138 139 140 141 142 144 148 153 155 156 161 162 170 171 173 174 178 179 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 86 | 3 4 5 6 7 8 13 14 15 16 19 25 26 28 29 31 32 33 35 38 41 44 47 54 55 57 59 60 63 68 69 71 73 80 82 83 84 85 86 87 89 90 94 96 100 101 102 104 107 109 111 113 114 115 116 118 120 121 124 126 129 132 135 139 140 141 142 146 149 152 156 157 158 159 160 161 163 165 167 168 170 174 175 176 178 179 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 87 | 0 1 2 3 7 8 9 10 11 16 17 19 21 24 25 31 34 38 41 42 44 46 48 50 51 53 58 61 63 66 70 71 73 74 76 80 81 85 86 87 88 92 93 94 96 98 100 103 105 106 108 109 112 115 116 118 122 123 125 126 129 130 132 133 136 138 139 140 141 142 143 145 146 150 151 152 158 159 161 163 164 168 172 173 174 179 180 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 96 | 0 1 7 8 9 12 13 14 18 20 21 22 23 24 25 26 29 30 31 32 34 35 40 41 44 46 48 49 53 56 58 59 60 62 63 64 65 68 69 72 73 74 77 79 81 83 84 86 89 90 93 94 95 97 98 99 100 104 106 108 112 114 117 118 121 122 123 125 132 133 134 135 136 137 139 140 142 143 145 149 150 154 156 157 158 160 164 165 167 168 169 171 175 178 179 182 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 88 | 2 3 4 5 6 7 11 12 19 21 23 24 26 27 31 32 33 36 37 38 42 44 49 50 51 55 56 61 62 63 64 66 75 78 79 81 84 85 87 88 90 91 94 95 97 98 100 102 103 107 110 112 113 114 115 117 119 122 125 126 127 128 129 134 135 138 139 140 144 145 147 148 150 152 153 154 156 164 167 168 169 172 174 177 178 181 182 183 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 85 | 2 3 4 5 6 7 8 10 11 19 22 23 31 32 39 40 41 42 43 47 49 50 52 54 56 57 61 62 63 70 71 73 74 75 76 80 82 83 84 86 88 90 92 94 95 96 101 103 107 109 110 112 113 114 116 118 119 120 122 124 125 126 127 128 130 131 132 134 135 137 143 144 145 147 152 155 156 157 165 166 172 173 175 178 180 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 99 | 2 6 7 8 10 14 15 16 17 19 22 23 25 27 28 29 31 32 37 38 39 40 45 46 47 48 50 51 54 55 56 57 61 64 67 68 71 74 75 77 78 80 82 84 85 86 89 90 91 92 93 94 96 97 98 99 100 103 109 111 115 116 120 121 122 123 124 125 126 127 128 129 133 135 138 144 148 151 155 156 157 160 161 162 163 164 165 166 167 169 170 172 173 174 178 179 181 184 185 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 108 | 1 2 3 6 7 8 10 11 12 14 16 17 19 20 21 23 24 25 28 31 32 33 34 35 38 39 40 41 42 43 46 50 52 54 55 59 62 68 69 72 73 75 77 78 80 81 83 84 85 86 87 89 91 93 94 97 98 99 101 103 104 106 107 108 109 110 111 114 115 116 118 122 123 125 128 129 131 132 136 138 139 140 144 145 148 150 151 154 156 157 158 161 162 163 166 167 168 169 172 173 174 176 177 178 179 180 184 186 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 88 | 1 5 6 7 9 10 18 19 23 25 26 31 32 33 39 40 42 45 47 48 49 54 58 61 65 66 67 68 70 73 74 75 76 77 79 80 81 82 83 84 85 87 88 89 92 93 94 100 101 102 107 108 109 116 117 120 121 124 125 126 129 133 134 136 137 139 141 143 144 145 146 148 150 151 152 156 163 165 170 175 176 177 179 180 181 183 184 187 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 96 | 4 7 9 10 12 13 15 17 18 22 25 26 28 30 31 32 33 34 37 39 40 41 47 48 50 53 55 57 59 61 62 63 64 66 70 72 73 74 76 77 78 79 80 81 82 83 85 86 87 89 93 95 98 99 101 102 103 106 109 110 111 113 114 115 117 119 121 124 127 128 130 131 132 133 134 138 141 143 148 153 154 155 157 159 164 165 170 171 172 175 180 181 183 185 187 188 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 98 | 3 4 6 10 11 14 17 18 19 21 24 28 30 31 33 34 36 37 38 40 42 45 47 48 49 50 51 53 54 56 59 61 62 63 64 68 71 74 75 79 82 83 85 86 90 91 95 96 97 98 99 100 102 103 105 106 107 108 110 114 119 120 121 122 123 128 132 135 136 137 138 139 140 142 144 147 148 149 150 152 153 156 159 160 161 162 163 164 166 173 175 177 179 183 184 185 186 187 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 103 | 0 1 2 3 4 6 9 11 12 14 15 17 18 19 25 27 29 30 32 33 35 36 37 38 40 41 42 47 49 52 53 54 58 59 60 61 66 72 73 74 77 78 79 81 82 83 86 87 90 92 93 94 97 101 102 104 107 108 109 111 112 114 116 119 120 121 122 123 124 126 127 128 132 133 134 136 137 139 141 142 143 146 151 152 153 154 157 160 161 165 166 171 173 174 175 176 177 178 179 180 186 188 190 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 110 | 1 2 6 7 9 12 13 15 16 17 18 19 20 21 23 24 25 27 28 29 30 32 34 36 39 40 41 43 44 45 48 50 54 55 56 57 59 60 64 65 66 72 73 74 84 85 86 87 91 93 95 96 97 99 100 101 102 104 105 107 108 109 110 111 114 115 116 117 121 122 124 125 131 134 136 137 138 139 140 141 143 144 146 147 149 150 151 152 155 156 157 160 163 164 167 169 171 173 176 178 179 181 182 183 184 186 187 188 189 190 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 92 | 0 2 3 4 6 7 9 10 11 12 15 18 19 22 23 24 25 26 27 29 31 32 36 39 42 45 49 53 55 57 58 61 65 66 71 73 74 75 78 79 80 82 84 85 86 87 91 93 94 95 97 98 99 100 104 106 109 110 112 113 116 124 129 130 132 134 135 137 139 140 142 144 146 148 149 153 154 156 157 158 161 164 167 171 177 178 179 180 181 185 191 192 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 96 | 0 2 3 4 5 7 8 9 10 11 13 14 15 18 19 21 25 26 27 28 30 31 32 33 36 39 41 43 47 49 50 51 52 56 59 64 65 66 67 69 74 75 76 77 78 79 80 82 83 85 87 88 92 93 94 95 100 104 109 111 113 114 116 117 121 122 126 127 129 130 131 134 135 138 148 149 150 151 154 155 157 166 167 168 169 171 173 174 176 178 184 185 187 189 192 193 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 104 | 0 1 4 5 6 9 11 12 13 16 20 21 22 23 26 30 34 38 40 41 44 46 47 48 49 50 51 52 53 54 55 56 60 63 65 67 71 72 76 77 78 80 81 82 85 87 88 91 94 95 97 103 107 109 111 112 115 116 118 120 121 123 125 127 128 129 130 131 132 134 136 137 139 140 142 145 147 148 151 153 154 156 158 160 161 162 163 165 167 168 171 172 174 175 178 183 185 186 187 188 189 190 192 193 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 97 | 0 1 3 4 6 7 8 10 11 12 13 15 18 20 22 23 26 27 30 33 34 35 37 38 39 41 42 46 47 49 51 52 53 54 58 59 61 62 63 65 67 70 71 72 74 77 78 79 82 84 85 90 91 92 97 99 100 101 108 113 116 117 122 123 124 125 127 129 133 134 136 137 138 139 141 142 145 146 153 155 157 159 161 162 166 168 170 171 175 176 182 183 185 189 192 193 195 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 98 | 2 3 5 6 7 10 11 12 14 15 21 22 24 25 26 28 33 34 35 37 38 39 41 43 44 46 47 49 50 51 52 54 56 57 58 62 63 64 70 72 75 77 78 79 85 86 88 89 91 92 95 97 98 100 101 102 103 104 108 113 115 118 119 120 125 126 127 129 137 138 140 141 145 151 153 154 155 157 158 159 161 162 163 166 172 173 174 176 177 180 185 188 189 190 192 193 194 195 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 108 | 0 2 3 4 6 9 11 13 14 16 22 23 24 26 28 31 33 35 37 40 42 45 48 49 55 57 58 59 60 61 62 63 64 65 66 67 68 69 71 72 74 76 79 80 81 82 83 84 85 86 87 90 91 94 97 99 100 102 103 106 107 109 117 118 119 120 122 123 125 126 129 133 135 139 141 142 143 144 145 146 149 150 151 152 157 160 161 163 164 166 167 168 169 172 173 175 176 179 180 181 185 186 189 190 191 192 193 194 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+The current set from cover is NOT a subset of W.
+The current set from cover is NOT a subset of W.
+W - length | content : 96 | 0 1 2 3 4 5 7 11 12 13 15 16 17 18 23 26 33 34 38 39 41 42 43 44 45 46 49 50 51 52 57 58 59 60 61 63 65 66 67 70 76 79 80 81 82 85 86 88 95 96 97 98 100 103 105 106 108 113 114 116 118 119 120 121 122 124 125 127 128 129 132 134 137 138 139 141 144 145 150 152 154 155 156 157 158 161 166 172 174 178 186 188 189 196 197 198 
+cover :
+C0 - length | content : 7 | 0 1 5 11 19 30 127 
+C1 - length | content : 7 | 2 3 6 16 22 34 111 
+covUnion - length | content : 14 | 0 1 2 3 5 6 11 16 19 22 30 34 111 127 
+
+Program reached the end.

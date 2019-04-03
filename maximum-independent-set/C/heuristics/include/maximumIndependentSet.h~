@@ -90,13 +90,14 @@ void allocateMemoryAndInitializeAnElement(element **e, int i);
 void appendElement(set **S, int j);
 void appendSet(setOfSets **SS, set **S);
 void expandASetByUnion(set **A, set **B);
+void decreaseSetByDifference(set **A, set **B);
 void rotateSet(set **S);
 void copySet(set **A, set **B);
 
 int  isThisSetEmpty(set **S);
 int  isThisSetOfSetsEmpty(setOfSets **SS);
 int  isItASubsetOfTheOther(set **A, set**B);
-
+int  isTheseSetsEqual(set **A, set **B); 
 void printSet(set *S, char *name);
 void printSetOfSets(setOfSets *S, char *name);
 void freeSet(set **S);

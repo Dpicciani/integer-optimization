@@ -189,17 +189,14 @@ void improvedKellermanHeuristic(graph **G){
     getMinorsVerticesReachedByTheCurrentOne(&W,i,G);
 
     if (isThisSetEmpty(&W)){
-      printSet(W, "W");
+      //printSet(W, "W");
 
       createANewCliqueAndAppendInTheCover(&cover,&C,i);
-      printSetOfSets(cover, "cover");
-      
-      printf("\n");
     }
     else{
-      printSet(W, "W");
-      printf("\n");
-
+      //printSet(W, "W");
+      //printSetOfSets(cover, "cover");
+      
       clearSet(&U);
       C = cover->firstSet;
       do{
@@ -207,16 +204,26 @@ void improvedKellermanHeuristic(graph **G){
 	  appendElement(&C, i);
 	  expandASetByUnion(&U,&C);
 
-          printf("The current set from cover is a subset of W.\n");
+	  if (isTheseSetsEqual(&U, &W))
+            break;
+          //printf("The current set from cover is a subset of W.\n");
 	}
 	else{
-	  printf("The current set from cover is NOT a subset of W.\n");
+	  //printf("The current set from cover is NOT a subset of W.\n");
 	}
 
-        C = C->next;
+	expandASetByUnion(&U,&C);
+        
+	C = C->next;
       }while(C != cover->firstSet);
+
+      
+
+      printSetOfSets(cover, "cover");
+      printSet(U,"covUnion");
     }
 
+    printf("\n");
     //freeSet(&W);
     clearSet(&W);
   }
@@ -336,37 +343,67 @@ void expandASetByUnion(set **A, set **B){
 
   /* Neither A nor B are empties */
 
-  element *firstElement, *p, *b;
+  element *firstElement, *b;
+  int indexB;
 
   firstElement = (*A)->firstElement;
-  p = firstElement;
+
   b = (*B)->firstElement;
-
-
-  // beginning elements
+  for (indexB=0; indexB < (*B)->length; indexB++){
   
-  // middle elements
+    if( b->v < (*A)->firstElement->v){
+      appendElement(A, b->v);
+
+      if (indexB == 0)
+        firstElement = (*A)->firstElement->previous;
+    }
+    else if ( b->v > (*A)->firstElement->v && 
+              b->v < firstElement->previous->v){
+      while (b->v > (*A)->firstElement->v)
+        rotateSet(A);
+
+      appendElement(A, b->v);
+    }
+    else if ( b->v > firstElement->previous->v){
+      (*A)->firstElement = firstElement;
+      appendElement(A, b->v);
+    }
+    else rotateSet(A);
+
+    b = b->next;
+  }
   
-  // end elements
+  (*A)->firstElement = firstElement;
+}
 
-
-
+void decreaseSetByDifference(set **A, set **B){
 /*
-  if ((b->v) < (p->v)){
-    appendElement(A, b->v);
-    firstElement = firstElement->previous;
-  }
-
-  while(b != (*B)->firstElement){
-    if ((b->v) < (p->v)){
-      append
-    }
-    else if ((b->v) > (p->v)){
-    }
-    else if ((b->v) == (p->v)){
-    }
-  }
+**  A = A\B
 */
+
+  if (isThisSetEmpty(A))
+    return;
+
+  if (isThisSetEmpty(B))
+    return;
+  
+  int indexB;
+  element *a,*b;
+
+  firstElement = (*A)->firstElement;
+
+  a = (*A)->firstElement;
+  b = (*B)->firstElement;
+  for (indexB=0; indexB < (*B)->length; indexB++){
+    
+    if (b->v == (*A)->firstElement->v){
+      // erase element from A
+    }
+    else if ( b->v > firstElement->previous->v)
+      return;
+
+    b = b->next;
+  }
 }
 
 void rotateSet(set **S){
@@ -432,6 +469,25 @@ int isItASubsetOfTheOther(set **A, set **B){
       return FALSE;
 
   }while(numberOfElementsSearchedFromA != (*A)->length);
+
+  return TRUE;
+}
+
+int isTheseSetsEqual(set **A, set **B){
+  element *a, *b;
+
+  if ((*A)->length != (*B)->length)
+    return FALSE;
+
+  a = (*A)->firstElement;
+  b = (*B)->firstElement;
+  do{
+    if (a->v != b->v)
+      return FALSE;
+
+    a = a->next;
+    b = b->next;
+  }while(a != (*A)->firstElement);
 
   return TRUE;
 }
