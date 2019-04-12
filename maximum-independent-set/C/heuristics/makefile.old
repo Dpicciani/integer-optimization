@@ -1,0 +1,56 @@
+# 28/03/2019 15:51, LabOtim, UFRJ, Fundao, Rio de Janeiro, Brazil
+# Author: Douglas Picciani de Souza
+#
+# This simple makefile was written to compile 
+# the code for research in the maximum independent 
+# set using a formulation by cliques from the 
+# clique cover problem.
+#
+# I consider three folders as the directory
+# structure: 
+# - include: all .h files
+# -     obj: all .o files 
+# -     src: all .c files
+# -    data: all database files
+
+PLATFORM = linux64
+
+CC  = gcc
+CPP = g++
+
+CARGS = -m64 -Wall -O3 -msse2 -DHAVE_SSE2 -DSFMT_MEXP=607
+
+_DEPS = maximumIndependentSet.h numericalRecipes.h 
+_OBJS = maximumIndependentSet.o maximumIndependentSetFunctions.o numericalRecipes.o
+_BIN = maximumIndependentSet
+
+GIDIR = $(GUROBI_HOME)/include/
+GLIB = -L$(GUROBI_HOME)/lib/ #-lgurobi751
+
+BFDIR = buffer
+BDIR  = bin
+IDIR  = include
+SDIR  = src
+ODIR  = obj
+DDIR  = database
+OUDIR = output
+
+DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
+
+IFLAGS = -I$(IDIR)
+GFLAGS = -I$(GIDIR) $(GLIB) -lm
+
+OBJS = $(patsubst %,$(ODIR)/%,$(_OBJS))
+
+$(ODIR)/%.o: $(SDIR)/%.c $(DEPS)
+	$(CC) $(CARGS) -c -o $@ $< $(IFLAGS) $(GFLAGS)
+
+maximumIndependentSet: $(OBJS) 
+	$(CC) $(CARGS) -o $(BDIR)/maximumIndependentSet $(OBJS) $(IFLAGS) $(GFLAGS) 
+
+
+.PHONY: clean
+
+clean:
+	clear
+	rm -f $(ODIR)/*.o $(ODIR)/*~  $(_BIN) $(SDIR)/*~ $(IDIR)/*~ *~ $(DDIR)/*~ $(DDIR)/$(_BIN).out $(DDIR)/$(_BIN).lp  $(DDIR)/$(_BIN).log $(BFDIR)/*.lp $(BDIR)/$(_BIN) $(DDIR)/$(OUDIR)/*
